@@ -462,6 +462,7 @@ export const Editable = (props: EditableProps) => {
     Array.from(Node.texts(editor)).length === 1 &&
     Node.string(editor) === ''
   ) {
+    /*
     const start = Editor.start(editor, [])
     decorations.push({
       [PLACEHOLDER_SYMBOL]: true,
@@ -469,6 +470,7 @@ export const Editable = (props: EditableProps) => {
       anchor: start,
       focus: start,
     })
+   */
   }
 
   return (
